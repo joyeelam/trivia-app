@@ -90,7 +90,7 @@ const Question = () => {
   }
 
   return (
-    <div className='quiz'>
+    <div className='container'>
       <p>{question.category}</p>
       <p>Question {questionIndex + 1}</p>
       <h3>{question.question}</h3>

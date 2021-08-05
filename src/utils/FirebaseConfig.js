@@ -1,3 +1,6 @@
+import firebase from 'firebase/app'
+import 'firebase/auth'
+
 const config = {
   apiKey: process.env.REACT_APP_API_KEY,
   authDomain: process.env.REACT_APP_AUTH_DOMAIN,
@@ -9,4 +12,8 @@ const config = {
   measurementId: process.env.REACT_APP_MEASUREMENT_ID
 }
 
-export default config
+const firebaseApp = firebase.initializeApp(config)
+
+export const auth = firebaseApp.auth()
+export const googleProvider = new firebase.auth.GoogleAuthProvider()
+export default firebaseApp

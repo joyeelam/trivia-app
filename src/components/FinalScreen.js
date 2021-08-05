@@ -34,7 +34,7 @@ const FinalScreen = () => {
   }
 
   return (
-    <div className='quiz'>
+    <div className='container'>
       <h1 className='header'>You scored {score} out of {questions.length}!</h1>
       <div
         className='pixel'

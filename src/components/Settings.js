@@ -3,7 +3,7 @@ import {useSelector, useDispatch} from 'react-redux'
 
 import FetchButton from './FetchButton'
 
-const Settings = () => {
+const Settings = ({handleLogout}) => {
 
   const dispatch = useDispatch()
 
@@ -62,8 +62,9 @@ const Settings = () => {
 
   if (!loading) {
     return (
-      <div className='quiz'>
-        <h1 className='logo'><i class="fas fa-user-astronaut"></i></h1>
+      <div className='container'>
+        <h1 className='logo'><i className="fas fa-user-astronaut"></i></h1>
+        <hr/>
         <h1 className='header'>Trivia</h1>
         <div className='quiz-setting'>
           <h5>Category:</h5>
@@ -99,6 +100,7 @@ const Settings = () => {
           <input type='number' value={questionAmount} onChange={handleAmountChange}></input>
         </div>
         <FetchButton text='Get started!'/>
+        <div className='pixel' onClick={handleLogout}><p>Log Out</p></div>
       </div>
     )
   } else {

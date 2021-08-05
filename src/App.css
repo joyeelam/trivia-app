@@ -17,23 +17,22 @@ body {
   font-family: 'Press Start 2P', sans-serif;
 }
 
-.container {
+.center-div {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.quiz {
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   background: rgba(255, 255, 255, 0.7);
-  height: auto;
-  width: auto;
-  padding: 5rem;
+  width: 100vw;
+  height: 100vh;
 }
 
 .quiz-setting {
@@ -99,7 +98,7 @@ body {
 		radial-gradient(circle at 0 100%, rgba(204,0,0,0) 14px, #000000 15px);
 }
 
-.quiz select {
+.container select {
   display: block;
   line-height: 1.3;
   padding: 0.6em 1.4em 0.5em 0.8em;
@@ -110,11 +109,11 @@ body {
   box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
 }
 
-.quiz select:hover {
+.container select:hover {
   border: 2px solid #cccccc;
 }
 
-.quiz input {
+.container input {
   display: block;
   line-height: 1.3;
   padding: 0.6em 1.4em 0.5em 0.8em;
@@ -125,12 +124,12 @@ body {
   box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
 }
 
-.quiz ul {
+.container ul {
   padding: 0;
   list-style-type: none;
 }
 
-.quiz li {
+.container li {
   display: block;
   line-height: 1.3;
   padding: 0.6em 1.4em 0.5em 0.8em;
@@ -142,15 +141,15 @@ body {
   cursor: pointer;
 }
 
-.quiz li:hover {
+.container li:hover {
   background-color: #7a9cc6;
   color: #000000;
 }
 
-.quiz li.correct {
+.container li.correct {
   background-color: #77ad78;
 }
 
-.quiz li.selected {
+.container li.selected {
   background-color: #ac3931;
 }
