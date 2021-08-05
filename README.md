@@ -1,6 +1,6 @@
 # Trivia App
 
-<img src='https://nostalgic-mahavira-b983b9.netlify.app/'/>
+<img src='https://media.giphy.com/media/wBRxiMXoau323RyzVJ/giphy.gif'/>
 
 Try it out here >> [Netlify Link](https://nostalgic-mahavira-b983b9.netlify.app/)
 
