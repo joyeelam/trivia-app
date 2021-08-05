@@ -1,3 +1,14 @@
+# Trivia App
+
+<img src='https://nostalgic-mahavira-b983b9.netlify.app/'/>
+
+Try it out here >> [Netlify Link](https://nostalgic-mahavira-b983b9.netlify.app/)
+
+## Credits
+Background image: [HodgePodge by Anatoliy Gromov](http://thepatternlibrary.com/#hodgepodge)
+Favicon & logo: [user-astronaut from Font Awesome](https://fontawesome.com/v5.15/icons/user-astronaut?style=solid)
+Trivia database: [Open Trivia Database](https://opentdb.com/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
